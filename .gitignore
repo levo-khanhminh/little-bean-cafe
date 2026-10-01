@@ -1,0 +1,14 @@
+# Dependencies (re-created by "npm install")
+node_modules/
+
+# Build output (re-created by "npm run build")
+dist/
+
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

@@ -1,0 +1,2 @@
+# Keep LF line endings in the repo so diffs look the same on Windows and Mac
+* text=auto eol=lf
