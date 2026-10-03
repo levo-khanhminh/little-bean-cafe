@@ -1,4 +1,7 @@
 import menu from './data/menu.json'
+import MenuItem from './components/MenuItem.jsx'
+
+const categories = [...new Set(menu.map((item) => item.category))]
 
 export default function App() {
   return (
@@ -6,13 +9,16 @@ export default function App() {
       <header className="header">
         <h1>Little Bean Cafe</h1>
       </header>
-      <ul>
-        {menu.map((item) => (
-          <li key={item.id}>
-            {item.name}: {item.price}
-          </li>
-        ))}
-      </ul>
+      {categories.map((category) => (
+        <section key={category}>
+          <h2 className="category">{category}</h2>
+          {menu
+            .filter((item) => item.category === category)
+            .map((item) => (
+              <MenuItem key={item.id} item={item} />
+            ))}
+        </section>
+      ))}
     </main>
   )
 }
