@@ -16,5 +16,17 @@
     "name": "Salted coffee",
     "category": "coffee",
     "price": 30000
+  },
+  {
+    "id": "peach-tea",
+    "name": "Peach tea",
+    "category": "tea",
+    "price": 35000
+  },
+  {
+    "id": "lotus-tea",
+    "name": "Lotus tea",
+    "category": "tea",
+    "price": 30000
   }
 ]
