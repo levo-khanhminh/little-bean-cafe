@@ -1,4 +1,5 @@
 import menu from './data/menu.json'
+import shop from './data/shop.json'
 import MenuItem from './components/MenuItem.jsx'
 
 const categories = [...new Set(menu.map((item) => item.category))]
@@ -7,7 +8,10 @@ export default function App() {
   return (
     <main className="page">
       <header className="header">
-        <h1>Little Bean Cafe</h1>
+        <h1>{shop.name}</h1>
+        <p>
+          {shop.slogan} · Open {shop.openingHours}
+        </p>
       </header>
       {categories.map((category) => (
         <section key={category}>
