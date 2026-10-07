@@ -28,5 +28,11 @@
     "name": "Lotus tea",
     "category": "tea",
     "price": 30000
+  },
+  {
+    "id": "butter-croissant",
+    "name": "Butter croissant",
+    "category": "food",
+    "price": 28000
   }
 ]
