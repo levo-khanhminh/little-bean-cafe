@@ -23,10 +23,23 @@
     "category": "coffee",
     "price": 30000
   },
+    {
+    "id": "Epresso",
+    "name": "Epresso",
+    "category": "coffee",
+    "price": 20000
+  },
   {
     "id": "lotus-tea",
     "name": "Lotus tea",
     "category": "tea",
     "price": 30000
+  },
+    {
+    "id": "Com Tam",
+    "name": "Com Tam",
+    "category": "food",
+    "price": 10000
   }
+
 ]
