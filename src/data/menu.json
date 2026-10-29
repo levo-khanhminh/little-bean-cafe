@@ -35,11 +35,17 @@
     "category": "tea",
     "price": 30000
   },
-    {
+  {
     "id": "Com Tam",
     "name": "Com Tam",
     "category": "food",
     "price": 10000
+  },
+  {
+    "id": "Tiraminsu",
+    "name": "Tiraminsu",
+    "category": "Cake",
+    "price": 20000
   }
 
 ]
